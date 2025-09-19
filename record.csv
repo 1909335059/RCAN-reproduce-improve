@@ -1,0 +1,4 @@
+改进,PSNR,SSIM,result
+RCAN,30.907,0.8335,v1-result_0804_lr(1).png
++CBAM,,,
++CBAM+数据增强,31.33,0.8646,v3-result_0804_lr(1).png
