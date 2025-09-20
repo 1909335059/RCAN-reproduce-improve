@@ -45,7 +45,7 @@ def super_resolve(model, img_path, hr_path, scale, save_path):
 if __name__ == "__main__":
     scale = 2
     weight_path = "rcan_best.pth"
-    img_name = '0804_lr(1)'
+    img_name = 'test1-compress'
     lr_image_path = f"./test_img/{img_name}.jpg"
     hr_image_path = f"./test_img/{img_name}_HR.png"  # 真值路径（如果有的话）
     save_path = f"./predicted/result_{img_name}.png"

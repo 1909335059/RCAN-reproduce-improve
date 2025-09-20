@@ -1,5 +1,7 @@
-改进,PSNR,SSIM,result
-RCAN,28.66,0.8366,v1-result_0804_lr(1).png
-+CBAM,29.57,0.8795,v2-result_0804_lr(1).png
-+数据增强,30.57,0.8531,v4-result_0804_lr(1).png
-+CBAM+数据增强,31.33,0.8646,v3-result_0804_lr(1).png
+改进,PSNR,SSIM,result,备注
+RCAN,28.66,0.8366,v1-result_0804_lr(1).png,
++CBAM,29.57,0.8795,v2-result_0804_lr(1).png,
++数据增强,30.57,0.8531,v4-result_0804_lr(1).png,
++CBAM+数据增强,31.33,0.8646,v3-result_0804_lr(1).png,
++CBAM+数据增强,34.53,0.9194,"v5-result_0804_lr(1).png
+result_test1-compress.png",增加训练集数量

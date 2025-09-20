@@ -6,7 +6,7 @@ import torch.nn.functional as F
 # ----------------------------------------
 # Channel Attention (CA) 模块
 # ----------------------------------------
-
+'''
 class CALayer(nn.Module):
     def __init__(self, channel, reduction=16):
         super(CALayer, self).__init__()
@@ -54,7 +54,7 @@ class CALayer(nn.Module):
         spatial_out = self.sigmoid(self.conv(torch.cat([max_out, avg_out], dim=1)))
         x = spatial_out * x
         return x
-'''
+
 
 # ----------------------------------------
 # 基本卷积
